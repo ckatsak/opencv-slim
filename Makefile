@@ -1,5 +1,5 @@
 IMG_NAME := ckatsak/opencv-slim
-IMG_TAG := 4.6.0-python3.11.0-slim-bullseye
+IMG_TAG := 4.7.0-python3.11.2-slim-bullseye
 
 .PHONY: opencv-slim
 opencv-slim:

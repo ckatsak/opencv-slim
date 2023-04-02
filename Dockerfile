@@ -1,9 +1,9 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.11.0-slim-bullseye
+FROM python:3.11.2-slim-bullseye
 LABEL maintainer="ckatsak@gmail.com"
 
-ENV OPENCV_VERSION="4.6.0"
+ENV OPENCV_VERSION="4.7.0"
 
 ENV LIBS="libswscale-dev \
           libtbb-dev \
