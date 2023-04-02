@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.10.7-slim-bullseye
+FROM python:3.11.0-slim-bullseye
 LABEL maintainer="ckatsak@gmail.com"
 
 ENV OPENCV_VERSION="4.6.0"
